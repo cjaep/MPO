@@ -1,0 +1,11 @@
+{"file_name": "tldr_llama_SFT_test_beam.json"}
+{"AlignScore": 84.92365898550068, "FactCC": 29.0553944758126, "BARTScore": -1.6501102795832652, "BS-Fact": 90.57844479029804, "Rouge-L": 24.310599422106172}
+
+{"file_name": "tldr_llama_SFT_test_greedy.json"}
+{"AlignScore": 77.67971200451377, "FactCC": 23.363345032809402, "BARTScore": -2.0515964269346996, "BS-Fact": 89.55966174175008, "Rouge-L": 23.325634479031894}
+
+{"file_name": "tldr_llama_MPO_test_beam.json"}
+{"AlignScore": 85.33038420153495, "FactCC": 29.39111857164658, "BARTScore": -1.6379974107878383, "BS-Fact": 90.67376144747689, "Rouge-L": 24.163910962518}
+
+{"file_name": "tldr_llama_MPO_test_greedy.json"}
+{"AlignScore": 78.02522683714058, "FactCC": 23.287044101938047, "BARTScore": -2.027614317430752, "BS-Fact": 89.6477987761536, "Rouge-L": 23.29185771640351}

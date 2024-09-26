@@ -1,0 +1,11 @@
+{"file_name": "tldr_mistral_SFT_test_beam.json"}
+{"AlignScore": 87.85441471885814, "FactCC": 41.873950862200516, "BARTScore": -1.4778914492348214, "BS-Fact": 90.95547615654066, "Rouge-L": 25.322492275094156}
+
+{"file_name": "tldr_mistral_SFT_test_greedy.json"}
+{"AlignScore": 82.74244764297907, "FactCC": 24.721501602319552, "BARTScore": -1.8112042101215775, "BS-Fact": 90.04368551192566, "Rouge-L": 25.015397297259668}
+
+{"file_name": "tldr_mistral_MPO_test_beam.json"}
+{"AlignScore": 92.12181638939632, "FactCC": 61.89894672569074, "BARTScore": -1.2532581004035908, "BS-Fact": 91.8221555389788, "Rouge-L": 24.85093349043619}
+
+{"file_name": "tldr_mistral_MPO_test_greedy.json"}
+{"AlignScore": 89.39072046426006, "FactCC": 49.55738705738706, "BARTScore": -1.3671189850385008, "BS-Fact": 91.53330451621241, "Rouge-L": 25.01039118844122}

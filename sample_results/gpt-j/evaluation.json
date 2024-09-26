@@ -1,0 +1,29 @@
+{"file_name": "tldr_gpt_sft_test_beam.json"}
+{"AlignScore": 89.20716310625293, "FactCC": 64.1796654764142, "BARTScore": -1.2504681514866973, "BS-Fact": 91.52780817854878, "Rouge-L": 26.744754521637006}
+
+{"file_name": "tldr_gpt_sft_test_greedy.json"}
+{"AlignScore": 83.54366483904093, "FactCC": 53.48373235113566, "BARTScore": -1.6258911309595705, "BS-Fact": 90.2983269657073, "Rouge-L": 26.01050587572571}
+
+{"file_name": "tldr_gpt_MPO_test_beam.json"}
+{"AlignScore": 91.61169704239222, "FactCC": 72.09835064141723, "BARTScore": -1.0993017641123142, "BS-Fact": 92.19608900837586, "Rouge-L": 26.09621427342367}
+
+{"file_name": "tldr_gpt_MPO_test_greedy.json"}
+{"AlignScore": 86.81855791219589, "FactCC": 59.38931297709924, "BARTScore": -1.406795968240454, "BS-Fact": 91.20383303766032, "Rouge-L": 26.494020694623693}
+
+{"file_name": "tldr_gpt_MPO_iter2_test_beam.json"}
+{"AlignScore": 93.33820130809902, "FactCC": 76.45442052221713, "BARTScore": -0.9913559924520451, "BS-Fact": 92.57009713171747, "Rouge-L": 25.283345278031533}
+
+{"file_name": "tldr_gpt_MPO_iter2_test_greedy.json"}
+{"AlignScore": 88.14246855197361, "FactCC": 62.01526717557252, "BARTScore": -1.2909117305642777, "BS-Fact": 91.60586063188451, "Rouge-L": 26.030746187344565}
+
+{"file_name": "tldr_gpt_MPO_iter3_test_beam.json"}
+{"AlignScore": 95.30995268457183, "FactCC": 82.61864794750495, "BARTScore": -0.9827846401059389, "BS-Fact": 92.73136350083638, "Rouge-L": 24.209160383484797}
+
+{"file_name": "tldr_gpt_MPO_iter3_test_greedy.json"}
+{"AlignScore": 93.80318783576179, "FactCC": 76.17884938196246, "BARTScore": -1.0071113406202001, "BS-Fact": 92.72268935321725, "Rouge-L": 24.789416912564853}
+
+{"file_name": "tldr_gpt_DPO_test_beam.json"}
+{"AlignScore": 88.11782151598254, "FactCC": 61.70312499999999, "BARTScore": -1.3345281123649329, "BS-Fact": 91.27208183985204, "Rouge-L": 27.23531639046733}
+
+{"file_name": "tldr_gpt_DPO_test_greedy.json"}
+{"AlignScore": 82.54728888194627, "FactCC": 54.08833868256151, "BARTScore": -1.6456819813759451, "BS-Fact": 90.21685033713243, "Rouge-L": 26.280074883636633}

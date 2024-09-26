@@ -1,0 +1,5 @@
+{"file_name": "xsum_bart_SFT_test_beam.json"}
+{"AlignScore": 61.861092929162595, "FactCC": 22.9662961002294, "BARTScore": -1.7951717766237487, "BS-Fact": 88.90373612314762, "Rouge-L": 36.42128914522331}
+
+{"file_name": "xsum_bart_MPO_test_beam.json"}
+{"AlignScore": 66.4172326997087, "FactCC": 22.69278277748368, "BARTScore": -1.8016700166594273, "BS-Fact": 89.27643556474524, "Rouge-L": 35.77923084474989}
