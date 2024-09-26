@@ -71,8 +71,8 @@ CUDA_VISIBLE_DEVICES=0 taskset -c 0-7 python ./sft.py \
 CUDA_VISIBLE_DEVICES=0 taskset -c 0-7 python ./mpo.py \
     --rejected_file="${REJECTED_FILE}" \
     --chosen_file="${CHOSEN_FILE}" \
-    --model_name_or_path="models/${BASE_MODEL}" \
-    --output_dir="models/${TARGET_MODEL}" \
+    --model_name_or_path="models/${SFT_MODEL}/final_merged_checkpoint" \
+    --output_dir="models/${MPO_MODEL}" \
     --beta=0.5 \
     --learning_rate=1e-4 \
     --warmup_steps=150 \
@@ -86,9 +86,9 @@ CUDA_VISIBLE_DEVICES=0 taskset -c 0-7 python ./mpo.py \
 ### 3. Summarization
 ```sh
 CUDA_VISIBLE_DEVICES=0 taskset -c 0-7 python ./summarization.py \
-    --output_file="${FOLDER}/${TARGET_MODEL}_${SPLIT}_${DECODING_TYPE}" \
+    --output_file="${FOLDER}/${MPO_MODEL}_${SPLIT}_${DECODING_TYPE}" \
     --decoding_type="${DECODING_TYPE}" \
-    --model="models/${TARGET_MODEL}/final_checkpoint" \
+    --model="models/${MPO_MODEL}/final_checkpoint" \
     --tokenizer_model="${TOKENIZER_MODEL}" \
     --batch_size=1 \
     --dataset="${DATASET}" \
@@ -104,7 +104,7 @@ To run the evaluation, install following metrics:
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 taskset -c 0-7 python ./evaluation.py \
-    --input_file "${FOLDER}/${TARGET_MODEL}_${SPLIT}_${DECODING_TYPE}.json" \
+    --input_file "${FOLDER}/${MPO_MODEL}_${SPLIT}_${DECODING_TYPE}.json" \
     --output_file "${FOLDER}/evaluation.json" \
     --batch_size 16 \
     --alignscore_ckpt "${PATH_TO_ALIGNSCORE_CKPT}" \
