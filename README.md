@@ -45,7 +45,7 @@ The implementation follows an example from https://github.com/huggingface/trl/tr
 ```sh
 CUDA_VISIBLE_DEVICES=0 taskset -c 0-7 python ./sft.py \
     --model_name="mistralai/Mistral-7B-v0.1" \
-    --output_dir="./models/sft_mistral_tldr" \
+    --output_dir="models/${SFT_MODEL}" \
     --dataset_name="CarperAI/openai_summarize_tldr" \
     --max_steps=500 \
     --logging_steps=10 \
