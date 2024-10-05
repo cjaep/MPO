@@ -35,7 +35,7 @@ bash scripts/bart.sh
 
 ## Step-by-step Instructions
 To perform MPO, follow these three steps:
-1. **SFT**: Fine-tune the LLMㄴ on an abstractive summarization task to generate a single-sentence summary from the given source text.
+1. **SFT**: Fine-tune the LLMs on an abstractive summarization task to generate a single-sentence summary from the given source text.
 2. **DPO**: Using the SFT model trained in the previous stage, generate single-sentence summaries from the **validation split** of the dataset through **beam search** and **temperature-scaled sampling**. Summaries generated with beam search are used as chosen samples, while those generated with temperature-scaled sampling are used as rejected samples. These data pairs are then used to fine-tune the model through DPO.
 3. **Evaluation**: For the model trained in the DPO stage, generate summaries using the test split of the dataset and evaluate their quality using five different automatic metrics.
 
